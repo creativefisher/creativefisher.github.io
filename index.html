@@ -1,33 +1,198 @@
-In this article, I am not going to define what serverless is. I am not even going to expand on the economic and architectural benefits of serverless that we have all heard about — reduced infrastructure ops, event-driven instant scale and low costs.
 
-**Instead I want to make a case for why serverless is the thing that all developers should care about, whether or not their bosses care for it, YET.**
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-Starting with a personal story of course…
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-I have never done any “web development”. The double-quotes here are not meant to poke fun at the concept but to signify my ignorance about what it actually means. For the longest time I didn’t know the difference between a service, tier, Apache, IIS, ASP, JSP, JS, CSS or any of those other acronyms. As a software developer, I had either written C++ code building desktop applications for Windows or C code building server management applications for Linux. I always thought that is what the cool kids ought to do and all the “web stuff” was for lesser programmers.
+    <title>About</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-The more I stayed away from web, the more enigmatic it became for me. Things like REST, JSON, WebAPI etc. popped up in every second internet article. People building mobile apps were talking of building “web services backends” for their apps, which confused me. It didn’t help that the next hottest thing in town — “the cloud” — borrowed almost all its characteristics from the “web stuff”. If you wanted to build applications in “the cloud”, either you had to understand the “web stuff” really well or you had to be deep on Virtual Machines, Containers and those other virtualization related technologies. I had avoided both of them long enough that they had acquired a certain aura in my mind. Till I landed in a job where I was forced to learn all of that. THANKFULLY!
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=56e1d1b3e7" />
+    
+    <meta property="og:site_name" content="Raman Sharma" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="About" />
+    <meta property="og:description" content="LinkedIn Twitter GitHub Stack Overflow" />
+    <meta property="og:url" content="https://ramansharma.me/about/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="About" />
+    <meta name="twitter:description" content="LinkedIn Twitter GitHub Stack Overflow" />
+    <meta name="twitter:url" content="https://ramansharma.me/about/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Raman Sharma" />
+    <meta name="twitter:site" content="@rasharm_" />
+    <meta name="twitter:creator" content="@rasharm_" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Raman Sharma",
+        "url": "https://ramansharma.me/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://ramansharma.me/favicon.ico",
+            "width": 48,
+            "height": 48
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Raman Sharma",
+        "sameAs": [
+            "https://twitter.com/rasharm_"
+        ]
+    },
+    "headline": "About",
+    "url": "https://ramansharma.me/about/",
+    "description": "LinkedIn [https://www.linkedin.com/in/ramansharma/]\n\nTwitter [https://twitter.com/rasharm_]\n\nGitHub [https://github.com/creativefisher]\n\nStack Overflow\n[https://stackoverflow.com/users/1020338/raman-sharma?tab&#x3D;profile]",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://ramansharma.me/"
+    }
+}
+    </script>
 
-But what has any of that got to do with Serverless?
+    <meta name="generator" content="Ghost 3.15" />
+    <link rel="alternate" type="application/rss+xml" title="Raman Sharma" href="https://ramansharma.me/rss/" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166314817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-Lots.
+  gtag('config', 'UA-166314817-1');
+</script>
 
-### Serverless makes cloud accessible to all developers by taking away its aura
+</head>
+<body class="page-template page-about">
 
-I am sure despite the massive popularity of “web development”, there is an army of developers worldwide who build software for desktops, servers, embedded devices, mobile devices and never deal much with the “web” aspects (much like me). Many of them no doubt are anxious about “the cloud” and what it means for them — whether it is about having employable skills for future or figuring out how to connect/transition their existing applications to the cloud (having seen the corporate memos to that effect already).
+    <div class="site-wrapper">
 
-These developers can take heart from the fact that all they need to do, to have applications running in “the cloud”, is to just write their business logic. Before serverless, their transition might have meant learning a lot of technologies which were all logistical in nature, mostly just doing undifferentiated heavy lifting. With serverless, their programming skills are all they need. What programmer doesn’t like the prospect of focusing on programming only?
+        
+<header class="site-header">
+    <div class="outer site-nav-main">
+        <div class="inner">
+            <nav class="site-nav">
+    <div class="site-nav-left-wrapper">
+        <div class="site-nav-left">
+                <a class="site-nav-logo" href="https://ramansharma.me">Raman Sharma</a>
+            <div class="site-nav-content">
+                    <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="https://ramansharma.me/">Home</a></li>
+    <li class="nav-about nav-current" role="menuitem"><a href="https://ramansharma.me/about/">About</a></li>
+</ul>
 
-### Serverless provides a canvas for easy experimentation
+            </div>
+        </div>
+    </div>
+    <div class="site-nav-right">
+            <div class="social-links">
+                    <a class="social-link social-link-tw" href="https://twitter.com/rasharm_" title="Twitter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            </div>
+                <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://ramansharma.me/rss/" title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
 
-In the desktop world, building small console applications or command-line utilities, to test out a theory or an idea, is an everyday thing. In “the cloud” however, sometimes the accompanying procedure around trying to prototype a very basic idea, is full of several friction points — configurations, setups, SDKs, integrations and so on. Serverless reduces that pain significantly for developers, by handling much of that procedure behind the scenes. Easy prototyping, quick experimentation, learning from mistakes and pivoting based on lessons, are key tenets of modern software development. A much under-appreciated quality of serverless is its ability to provide just that.
+    </div>
+</nav>
+        </div>
+    </div>
+</header>
 
-### Serverless focuses on developer productivity, not on sophistication
 
-Early in my career, the cool-kid syndrome I mentioned previously (the one that kept me away from “web stuff”) also kept me away from Visual Studio for too long. I persisted with vim and gdb on Linux, even when all the code I worked on, was cross-platform C/C++ code which could be easily handled in Visual Studio on Windows. All of this, just because it was cool to diss anything not command-line. Don’t want to start a debate on this topic but suffice to say that at least I felt that I lost countless hours of productivity doing this.
+<main id="site-main" class="site-main outer">
+    <div class="inner">
 
-The bigger point I am trying to make here is that there are competing technologies even in the cloud, that allow you to do similar things. There are multiple scenarios in which VMs, containers, or serverless will provide similar outputs. However serverless will probably be the only one that optimizes for developer productivity by providing an experience focused on developer’s currency — which is not virtual machines, containers, orchestrators, or instances, but CODE. The problem of productively handling code (even the code meant for cloud) has been solved by world class IDEs like Visual Studio.
+        <article class="post-full post no-image page no-image">
 
-Is serverless a panacea? No. Does it have issues? Sure. We have all heard of cold-start, lack of state, limits on duration, memory and so on. Are these deal-breakers? In most cases, No. The productivity benefits outweigh these issues already. Are these problems insurmountable? Not at all. The cloud vendors have seen enough merit and promise in this technology that they are sufficiently motivated to fix these issues soon.
+            <header class="post-full-header">
+                <h1 class="post-full-title">About</h1>
+            </header>
 
-In summary, serverless presents a great tool that all developers need to have in their toolbox.
+
+            <section class="post-full-content">
+                <div class="post-content">
+                    <p><a href="https://www.linkedin.com/in/ramansharma/">LinkedIn</a></p><p><a href="https://twitter.com/rasharm_">Twitter</a></p><p><a href="https://github.com/creativefisher">GitHub</a></p><p><a href="https://stackoverflow.com/users/1020338/raman-sharma?tab=profile">Stack Overflow</a></p>
+                </div>
+            </section>
+
+        </article>
+
+    </div>
+</main>
+
+
+
+
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="https://ramansharma.me">Raman Sharma</a> &copy; 2020</section>
+                <nav class="site-footer-nav">
+                    <a href="https://ramansharma.me">Latest Posts</a>
+                    
+                    <a href="https://twitter.com/rasharm_" target="_blank" rel="noopener">Twitter</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="/assets/built/casper.js?v=56e1d1b3e7"></script>
+
+    <script>
+        // Parse the URL parameter
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        // Give the parameter a variable name
+        var action = getParameterByName('action');
+
+        $(document).ready(function () {
+            if (action == 'subscribe') {
+                $('body').addClass("subscribe-success");
+            }
+
+            $('.subscribe-success-message .subscribe-close').click(function () {
+                $('.subscribe-success-message').addClass('close');
+            });
+
+            // Reset form on opening subscrion overlay
+            $('.subscribe-button').click(function() {
+                $('.subscribe-overlay form').removeClass();
+                $('.subscribe-email').val('');
+            });
+        });
+    </script>
+
+    <script>
+    $(function() {
+        var $postContent = $(".post-full-content");
+        $postContent.fitVids();
+    });
+</script>
+
+
+    
+
+</body>
+</html>
