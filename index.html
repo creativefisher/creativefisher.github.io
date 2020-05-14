@@ -7,69 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>About</title>
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css?v=56e1d1b3e7" />
-    
-    <meta property="og:site_name" content="Raman Sharma" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="About" />
-    <meta property="og:description" content="LinkedIn Twitter GitHub Stack Overflow" />
-    <meta property="og:url" content="https://ramansharma.me/about/" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="LinkedIn Twitter GitHub Stack Overflow" />
-    <meta name="twitter:url" content="https://ramansharma.me/about/" />
-    <meta name="twitter:label1" content="Written by" />
-    <meta name="twitter:data1" content="Raman Sharma" />
-    <meta name="twitter:site" content="@rasharm_" />
-    <meta name="twitter:creator" content="@rasharm_" />
-    
-    <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "publisher": {
-        "@type": "Organization",
-        "name": "Raman Sharma",
-        "url": "https://ramansharma.me/",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://ramansharma.me/favicon.ico",
-            "width": 48,
-            "height": 48
-        }
-    },
-    "author": {
-        "@type": "Person",
-        "name": "Raman Sharma",
-        "sameAs": [
-            "https://twitter.com/rasharm_"
-        ]
-    },
-    "headline": "About",
-    "url": "https://ramansharma.me/about/",
-    "description": "LinkedIn [https://www.linkedin.com/in/ramansharma/]\n\nTwitter [https://twitter.com/rasharm_]\n\nGitHub [https://github.com/creativefisher]\n\nStack Overflow\n[https://stackoverflow.com/users/1020338/raman-sharma?tab&#x3D;profile]",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://ramansharma.me/"
-    }
-}
-    </script>
-
-    <meta name="generator" content="Ghost 3.15" />
-    <link rel="alternate" type="application/rss+xml" title="Raman Sharma" href="https://ramansharma.me/rss/" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166314817-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-166314817-1');
-</script>
-
 </head>
 <body class="page-template page-about">
 
@@ -131,68 +68,9 @@
 
 
 
-        <footer class="site-footer outer">
-            <div class="site-footer-content inner">
-                <section class="copyright"><a href="https://ramansharma.me">Raman Sharma</a> &copy; 2020</section>
-                <nav class="site-footer-nav">
-                    <a href="https://ramansharma.me">Latest Posts</a>
-                    
-                    <a href="https://twitter.com/rasharm_" target="_blank" rel="noopener">Twitter</a>
-                </nav>
-            </div>
-        </footer>
-
     </div>
 
 
-    <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous">
-    </script>
-    <script src="/assets/built/casper.js?v=56e1d1b3e7"></script>
-
-    <script>
-        // Parse the URL parameter
-        function getParameterByName(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, "\\$&");
-            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-                results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, " "));
-        }
-
-        // Give the parameter a variable name
-        var action = getParameterByName('action');
-
-        $(document).ready(function () {
-            if (action == 'subscribe') {
-                $('body').addClass("subscribe-success");
-            }
-
-            $('.subscribe-success-message .subscribe-close').click(function () {
-                $('.subscribe-success-message').addClass('close');
-            });
-
-            // Reset form on opening subscrion overlay
-            $('.subscribe-button').click(function() {
-                $('.subscribe-overlay form').removeClass();
-                $('.subscribe-email').val('');
-            });
-        });
-    </script>
-
-    <script>
-    $(function() {
-        var $postContent = $(".post-full-content");
-        $postContent.fitVids();
-    });
-</script>
-
-
-    
 
 </body>
 </html>
